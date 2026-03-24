@@ -1,0 +1,31 @@
+# Local env files
+.env*
+!.env.example
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS-specific trash
+*.Trash-*
+
+# File upload artifacts / temporary
+*.log
+*.tmp
+*.swp
+*.exe
+
+# VS Code settings for debug config, launch.json etc
+.vscode/
+
+# other
+github_pat*
+/uploads/*
